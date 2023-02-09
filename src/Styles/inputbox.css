@@ -1,0 +1,19 @@
+.input-box{
+
+    font-size: 20px;
+    color: rgb(255, 200, 0);
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: azure;
+    border: 2px solid black;
+    transition: all 0.5s;
+
+    width: 50rem;
+    margin-bottom: 1rem;
+}
+
+.input-box:hover{
+    
+    background-color:rgb(222, 240, 255);
+
+}
