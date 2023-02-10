@@ -19,6 +19,9 @@ function Navbar() {
                 <li>
                     <Link to="/assignment-show-my-name">Show My Name</Link>
                 </li>
+                <li>
+                    <Link to="/form">Formik Form</Link>
+                </li>
             </ul>
 
         </div>

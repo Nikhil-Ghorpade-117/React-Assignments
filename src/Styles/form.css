@@ -1,0 +1,93 @@
+
+
+.form{
+
+    width: auto;
+    height: 60%;
+    /* border: 2px solid black; */
+
+    margin: 3rem auto;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.inputs{
+    display: flex;
+}
+
+.inputs input{
+
+    padding: .5rem 1rem;
+    font-size: 20px;
+    border-radius: 6px;
+    /* border: 2px solid black; */
+    margin: 0.6rem;
+}
+
+.inputs label{
+    font-weight: 600;
+    padding-top: 1rem;
+}
+
+.dropdown-selector{
+
+    width: 18rem;
+    border: 2px solid black;
+    border-radius: 6px;
+
+    display: inline-block;
+
+}
+
+.dropdown-selector-error{
+    width: 18rem;
+    border: 2px solid red;
+    border-radius: 6px;
+}
+
+
+.dropdown-container{
+
+    display: flex;
+    margin-top: 10px
+
+}
+
+.dropdown-container label{
+    font-weight: 600;
+    margin-right: 0.4rem;
+    margin-top: 5px;
+
+}
+
+
+.submit-btn{
+
+    margin-top: 1rem;
+    padding: 0.5rem 3rem;
+    border-radius: 10px;
+
+    font-size: 20px;
+    cursor: pointer;
+
+    margin-left: 4rem;
+}
+
+
+.input-error{
+
+    border: 2px solid red;
+}
+
+.error-msg{
+
+    color: rgb(255, 0, 0);
+    font-size: 13px;
+    
+}
