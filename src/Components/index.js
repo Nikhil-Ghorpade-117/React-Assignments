@@ -9,6 +9,7 @@ import Assignment_2 from "./Assignment_2";
 import Navbar from "./Navbar";
 import Form from "./Form";
 import Form2 from "./Form2";
+import BasicTable from "./BasicTable";
 
 
 export {    Header,
@@ -21,5 +22,6 @@ export {    Header,
             Assignment_2,
             Navbar, 
             Form,
-            Form2 };
+            Form2,
+            BasicTable };
 

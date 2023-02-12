@@ -22,6 +22,9 @@ function Navbar() {
                 <li>
                     <Link to="/form">Formik Form</Link>
                 </li>
+                <li>
+                    <Link to="/list">List</Link>
+                </li>
             </ul>
 
         </div>
