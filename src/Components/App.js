@@ -1,7 +1,7 @@
 import '../Styles/App.css';
 
 //file imports below this line
-import {Home, Assignment_1, Assignment_2, Navbar, Form, Form2, ListAndTable} from "./index";
+import {Home, Assignment_1, Assignment_2, Navbar, Form, Form2, ListAndTable, Sports} from "./index";
 import {Routes, Route} from "react-router-dom";
 import BasicTable from './BasicTable';
 
@@ -17,6 +17,7 @@ function App() {
         <Route path='/assignment-show-my-name' element={<Assignment_2/>}/>
         <Route path="/form" element={<Form/>}/>
         <Route path="/list" element={<BasicTable/>}/>
+        <Route path="/sports" element={<Sports/>}/>
       </Routes>
 
     </div>

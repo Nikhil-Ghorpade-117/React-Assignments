@@ -10,6 +10,7 @@ import Navbar from "./Navbar";
 import Form from "./Form";
 import Form2 from "./Form2";
 import BasicTable from "./BasicTable";
+import Sports from "./Sports";
 
 
 export {    Header,
@@ -23,5 +24,6 @@ export {    Header,
             Navbar, 
             Form,
             Form2,
-            BasicTable };
+            BasicTable,
+            Sports };
 
